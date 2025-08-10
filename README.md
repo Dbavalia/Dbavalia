@@ -6,6 +6,11 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
+## Documentation
+- API Reference: [docs/API_REFERENCE.md](docs/API_REFERENCE.md)
+- Usage Examples: [docs/USAGE_EXAMPLES.md](docs/USAGE_EXAMPLES.md)
+- Docs Guide: [docs/CONTRIBUTING_DOCS.md](docs/CONTRIBUTING_DOCS.md)
+
 <!---
 Dbavalia/Dbavalia is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
