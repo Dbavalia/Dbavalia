@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="logo" href="#">MySite</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h1>Build something great</h1>
+      <p>A clean, fast starter you can deploy anywhere.</p>
+      <div class="cta">
+        <a class="button primary" href="#features">Get Started</a>
+        <a class="button" href="#about">Learn More</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="features" class="grid">
+      <article class="card">
+        <h3>Modern</h3>
+        <p>Built with semantic HTML, CSS variables, and reusable utility classes.</p>
+      </article>
+      <article class="card">
+        <h3>Responsive</h3>
+        <p>Looks great on phones, tablets, and desktops with a fluid grid.</p>
+      </article>
+      <article class="card">
+        <h3>Accessible</h3>
+        <p>Color contrast and focus states out of the box.</p>
+      </article>
+    </section>
+
+    <section id="about" class="split">
+      <div>
+        <h2>About this starter</h2>
+        <p>This minimal template needs no build tools. Edit HTML/CSS/JS and refresh.</p>
+        <ul>
+          <li>No dependency install required</li>
+          <li>Fast to iterate</li>
+          <li>Easy to host anywhere</li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1080&auto=format&fit=crop" alt="Laptop on desk" />
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label>
+          Name
+          <input name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="button primary" type="submit">Send</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
